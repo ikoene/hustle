@@ -14,6 +14,7 @@
 		AAF54EE02122182400B5760B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF54EDE2122182400B5760B /* LaunchScreen.storyboard */; };
 		AAF54EEB2122182400B5760B /* hustleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF54EEA2122182400B5760B /* hustleTests.swift */; };
 		AAF54EF62122182400B5760B /* hustleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF54EF52122182400B5760B /* hustleUITests.swift */; };
+		AAF54F042122194500B5760B /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAF54F032122194500B5760B /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AAF54EF12122182400B5760B /* hustleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hustleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF54EF52122182400B5760B /* hustleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustleUITests.swift; sourceTree = "<group>"; };
 		AAF54EF72122182400B5760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF54F032122194500B5760B /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AAF54ED42122182300B5760B /* hustle */ = {
 			isa = PBXGroup;
 			children = (
+				AAF54F032122194500B5760B /* hustle-on.wav */,
 				AAF54ED52122182300B5760B /* AppDelegate.swift */,
 				AAF54ED72122182300B5760B /* ViewController.swift */,
 				AAF54ED92122182300B5760B /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF54F042122194500B5760B /* hustle-on.wav in Resources */,
 				AAF54EE02122182400B5760B /* LaunchScreen.storyboard in Resources */,
 				AAF54EDD2122182400B5760B /* Assets.xcassets in Resources */,
 				AAF54EDB2122182300B5760B /* Main.storyboard in Resources */,
