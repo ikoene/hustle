@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF54ED62122182300B5760B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF54ED52122182300B5760B /* AppDelegate.swift */; };
+		AAF54ED82122182300B5760B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF54ED72122182300B5760B /* ViewController.swift */; };
+		AAF54EDB2122182300B5760B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF54ED92122182300B5760B /* Main.storyboard */; };
+		AAF54EDD2122182400B5760B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF54EDC2122182400B5760B /* Assets.xcassets */; };
+		AAF54EE02122182400B5760B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF54EDE2122182400B5760B /* LaunchScreen.storyboard */; };
+		AAF54EEB2122182400B5760B /* hustleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF54EEA2122182400B5760B /* hustleTests.swift */; };
+		AAF54EF62122182400B5760B /* hustleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF54EF52122182400B5760B /* hustleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF54EE72122182400B5760B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF54ECA2122182300B5760B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF54ED12122182300B5760B;
+			remoteInfo = hustle;
+		};
+		AAF54EF22122182400B5760B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF54ECA2122182300B5760B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF54ED12122182300B5760B;
+			remoteInfo = hustle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAF54ED22122182300B5760B /* hustle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hustle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF54ED52122182300B5760B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF54ED72122182300B5760B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAF54EDA2122182300B5760B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF54EDC2122182400B5760B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF54EDF2122182400B5760B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF54EE12122182400B5760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF54EE62122182400B5760B /* hustleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hustleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF54EEA2122182400B5760B /* hustleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustleTests.swift; sourceTree = "<group>"; };
+		AAF54EEC2122182400B5760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF54EF12122182400B5760B /* hustleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hustleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF54EF52122182400B5760B /* hustleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustleUITests.swift; sourceTree = "<group>"; };
+		AAF54EF72122182400B5760B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF54ECF2122182300B5760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF54EE32122182400B5760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF54EEE2122182400B5760B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF54EC92122182300B5760B = {
+			isa = PBXGroup;
+			children = (
+				AAF54ED42122182300B5760B /* hustle */,
+				AAF54EE92122182400B5760B /* hustleTests */,
+				AAF54EF42122182400B5760B /* hustleUITests */,
+				AAF54ED32122182300B5760B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF54ED32122182300B5760B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF54ED22122182300B5760B /* hustle.app */,
+				AAF54EE62122182400B5760B /* hustleTests.xctest */,
+				AAF54EF12122182400B5760B /* hustleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF54ED42122182300B5760B /* hustle */ = {
+			isa = PBXGroup;
+			children = (
+				AAF54ED52122182300B5760B /* AppDelegate.swift */,
+				AAF54ED72122182300B5760B /* ViewController.swift */,
+				AAF54ED92122182300B5760B /* Main.storyboard */,
+				AAF54EDC2122182400B5760B /* Assets.xcassets */,
+				AAF54EDE2122182400B5760B /* LaunchScreen.storyboard */,
+				AAF54EE12122182400B5760B /* Info.plist */,
+			);
+			path = hustle;
+			sourceTree = "<group>";
+		};
+		AAF54EE92122182400B5760B /* hustleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF54EEA2122182400B5760B /* hustleTests.swift */,
+				AAF54EEC2122182400B5760B /* Info.plist */,
+			);
+			path = hustleTests;
+			sourceTree = "<group>";
+		};
+		AAF54EF42122182400B5760B /* hustleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF54EF52122182400B5760B /* hustleUITests.swift */,
+				AAF54EF72122182400B5760B /* Info.plist */,
+			);
+			path = hustleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF54ED12122182300B5760B /* hustle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF54EFA2122182400B5760B /* Build configuration list for PBXNativeTarget "hustle" */;
+			buildPhases = (
+				AAF54ECE2122182300B5760B /* Sources */,
+				AAF54ECF2122182300B5760B /* Frameworks */,
+				AAF54ED02122182300B5760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hustle;
+			productName = hustle;
+			productReference = AAF54ED22122182300B5760B /* hustle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF54EE52122182400B5760B /* hustleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF54EFD2122182400B5760B /* Build configuration list for PBXNativeTarget "hustleTests" */;
+			buildPhases = (
+				AAF54EE22122182400B5760B /* Sources */,
+				AAF54EE32122182400B5760B /* Frameworks */,
+				AAF54EE42122182400B5760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF54EE82122182400B5760B /* PBXTargetDependency */,
+			);
+			name = hustleTests;
+			productName = hustleTests;
+			productReference = AAF54EE62122182400B5760B /* hustleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAF54EF02122182400B5760B /* hustleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF54F002122182400B5760B /* Build configuration list for PBXNativeTarget "hustleUITests" */;
+			buildPhases = (
+				AAF54EED2122182400B5760B /* Sources */,
+				AAF54EEE2122182400B5760B /* Frameworks */,
+				AAF54EEF2122182400B5760B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF54EF32122182400B5760B /* PBXTargetDependency */,
+			);
+			name = hustleUITests;
+			productName = hustleUITests;
+			productReference = AAF54EF12122182400B5760B /* hustleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF54ECA2122182300B5760B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Koen Vinken";
+				TargetAttributes = {
+					AAF54ED12122182300B5760B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AAF54EE52122182400B5760B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AAF54ED12122182300B5760B;
+					};
+					AAF54EF02122182400B5760B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AAF54ED12122182300B5760B;
+					};
+				};
+			};
+			buildConfigurationList = AAF54ECD2122182300B5760B /* Build configuration list for PBXProject "hustle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF54EC92122182300B5760B;
+			productRefGroup = AAF54ED32122182300B5760B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF54ED12122182300B5760B /* hustle */,
+				AAF54EE52122182400B5760B /* hustleTests */,
+				AAF54EF02122182400B5760B /* hustleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF54ED02122182300B5760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF54EE02122182400B5760B /* LaunchScreen.storyboard in Resources */,
+				AAF54EDD2122182400B5760B /* Assets.xcassets in Resources */,
+				AAF54EDB2122182300B5760B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF54EE42122182400B5760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF54EEF2122182400B5760B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF54ECE2122182300B5760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF54ED82122182300B5760B /* ViewController.swift in Sources */,
+				AAF54ED62122182300B5760B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF54EE22122182400B5760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF54EEB2122182400B5760B /* hustleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF54EED2122182400B5760B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF54EF62122182400B5760B /* hustleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF54EE82122182400B5760B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF54ED12122182300B5760B /* hustle */;
+			targetProxy = AAF54EE72122182400B5760B /* PBXContainerItemProxy */;
+		};
+		AAF54EF32122182400B5760B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF54ED12122182300B5760B /* hustle */;
+			targetProxy = AAF54EF22122182400B5760B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAF54ED92122182300B5760B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF54EDA2122182300B5760B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF54EDE2122182400B5760B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF54EDF2122182400B5760B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF54EF82122182400B5760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAF54EF92122182400B5760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF54EFB2122182400B5760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hustle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koen.hustle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAF54EFC2122182400B5760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hustle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koen.hustle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAF54EFE2122182400B5760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hustleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koen.hustleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hustle.app/hustle";
+			};
+			name = Debug;
+		};
+		AAF54EFF2122182400B5760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hustleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koen.hustleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hustle.app/hustle";
+			};
+			name = Release;
+		};
+		AAF54F012122182400B5760B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hustleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koen.hustleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hustle;
+			};
+			name = Debug;
+		};
+		AAF54F022122182400B5760B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hustleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = koen.hustleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hustle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF54ECD2122182300B5760B /* Build configuration list for PBXProject "hustle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF54EF82122182400B5760B /* Debug */,
+				AAF54EF92122182400B5760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF54EFA2122182400B5760B /* Build configuration list for PBXNativeTarget "hustle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF54EFB2122182400B5760B /* Debug */,
+				AAF54EFC2122182400B5760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF54EFD2122182400B5760B /* Build configuration list for PBXNativeTarget "hustleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF54EFE2122182400B5760B /* Debug */,
+				AAF54EFF2122182400B5760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF54F002122182400B5760B /* Build configuration list for PBXNativeTarget "hustleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF54F012122182400B5760B /* Debug */,
+				AAF54F022122182400B5760B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF54ECA2122182300B5760B /* Project object */;
+}
